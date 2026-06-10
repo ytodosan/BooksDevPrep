@@ -1,0 +1,20 @@
+name: Books Library - cloud smoke
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  cloud-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "Cloud runner is up - Books Library workspace"
+
+      - name: Show runner info
+        run: |
+          echo "Runner OS: ${{ runner.os }}"
+          echo "Trigger: ${{ github.event_name }}"
+          echo "Branch: ${{ github.ref_name }}"
+          echo "Commit: ${{ github.sha }}"
