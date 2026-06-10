@@ -3,8 +3,8 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Books" />
+			<Item Name="Columns.UsrPublishedYear.Caption" Value="Year published" />
 			<Item Name="Columns.UsrTitle.Caption" Value="Title" />
-			<Item Name="EventsProcessSchema.Caption" Value="Business process" />
 		</Items>
 	</Group>
 </Resources>
