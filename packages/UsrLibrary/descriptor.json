@@ -1,0 +1,17 @@
+﻿{
+  "Descriptor": {
+    "UId": "7baf5c8d-60d1-46b4-8d77-10ba04cd67fa",
+    "Name": "UsrLibrary",
+    "Type": 1,
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/UsrLibrary.csproj",
+    "DependsOn": [
+      {
+        "UId": "3a71e376-9ac3-3049-c62b-9c43b9abe054",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCoreBase",
+        "Type": 1
+      }
+    ]
+  }
+}
