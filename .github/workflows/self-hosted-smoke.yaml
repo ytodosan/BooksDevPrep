@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - - name: Show Clio version
+      - name: Show Clio version
         shell: powershell
         run: clio --version
 
