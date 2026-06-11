@@ -13,10 +13,10 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Show Clio version
-        shell: pwsh
+      - - name: Show Clio version
+        shell: powershell
         run: clio --version
 
       - name: List Clio environments
-        shell: pwsh
+        shell: powershell
         run: clio show-web-app-list --format table
