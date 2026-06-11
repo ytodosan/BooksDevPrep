@@ -5,4 +5,5 @@
     <BuildType Name="dev-n8" />
     <BuildType Name="dev-nf" />
   </Configurations>
+  <Project Path="tests\UsrLibrary\UsrLibrary.Tests.csproj" />
 </Solution>
