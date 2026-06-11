@@ -1,0 +1,22 @@
+name: Books Library - self-hosted smoke
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  smoke:
+    name: Verify runner reaches Clio and BooksDevPrep
+    runs-on: [self-hosted, books-devprep]
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Show Clio version
+        shell: pwsh
+        run: clio --version
+
+      - name: List Clio environments
+        shell: pwsh
+        run: clio show-web-app-list --format table
