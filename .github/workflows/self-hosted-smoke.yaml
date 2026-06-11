@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          clean: false
 
       - name: Show Clio version
         shell: powershell
@@ -20,7 +22,7 @@ jobs:
       - name: List Clio environments
         shell: powershell
         run: clio show-web-app-list --format table
-        
+
       - name: Run unit tests
         shell: powershell
         run: .\tasks\run-tests.cmd
