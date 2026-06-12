@@ -6,7 +6,7 @@ namespace Terrasoft.Configuration.UsrLibrary
 
         public static bool IsClassic(int year)
         {
-            return year > 0 && year < ClassicThreshold;
+            return year > 0 && year <= ClassicThreshold;
         }
     }
 }
