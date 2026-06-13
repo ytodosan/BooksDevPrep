@@ -12,14 +12,9 @@ namespace Terrasoft.Configuration.UsrLibrary
 
         public static bool IsAncient(int year)
         {
-            if (year > 0 && year < 1500)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            bool isValid = (year > 0) == true;
+            bool beforeRenaissance = (year < 1500) == true;
+            return isValid && beforeRenaissance;
         }
     }
 }
