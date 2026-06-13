@@ -6,7 +6,19 @@ namespace Terrasoft.Configuration.UsrLibrary
 
         public static bool IsClassic(int year)
         {
-            return year > 0 && year <= ClassicThreshold;
+            return year > 0 && year < ClassicThreshold;
+        }
+
+        public static bool IsAncient(int year)
+        {
+            if (year > 0 && year < 1500)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }
