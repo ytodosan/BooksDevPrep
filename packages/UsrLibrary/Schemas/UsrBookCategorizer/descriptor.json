@@ -4,6 +4,7 @@
     "Name": "UsrBookCategorizer",
     "ModifiedOnUtc": "\/Date(1781188419000)\/",
     "ManagerName": "SourceCodeSchemaManager",
-    "Caption": "Book Categorizer"
+    "Caption": "Book Categorizer",
+    "DependsOn": []
   }
 }
