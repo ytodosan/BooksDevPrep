@@ -3,7 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Books" />
-			<Item Name="Columns.UsrPublishedYear.Caption" Value="Year published" />
+			<Item Name="Columns.UsrPublishedYear.Caption" Value="Year publication Dev2 version" />
 			<Item Name="Columns.UsrTitle.Caption" Value="Title" />
 		</Items>
 	</Group>
