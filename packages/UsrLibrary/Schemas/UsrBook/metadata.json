@@ -36,14 +36,6 @@
   "S2": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
 }
 + MetaData.Schema.D2 {
-  "UId": "10ee2da2-31e1-5b5e-3db6-5ed253d1ad0c",
-  "A2": "UsrISBN",
-  "A3": "3e4b80af-365e-465b-aefb-f9a3b6452fa2",
-  "A4": "3e4b80af-365e-465b-aefb-f9a3b6452fa2",
-  "A5": "2ec5b349-3bc7-470a-a34b-904ad0001312",
-  "S2": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
-}
-+ MetaData.Schema.D2 {
   "UId": "66dfb15e-5dd5-3b5d-f02f-d447c006336e",
   "A2": "UsrAuthor",
   "A3": "3e4b80af-365e-465b-aefb-f9a3b6452fa2",
@@ -51,6 +43,14 @@
   "A5": "418f4cdc-554b-4c69-8787-5860d134957c",
   "S2": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd",
   "E19": true
+}
++ MetaData.Schema.D2 {
+  "UId": "10ee2da2-31e1-5b5e-3db6-5ed253d1ad0c",
+  "A2": "UsrISBN",
+  "A3": "3e4b80af-365e-465b-aefb-f9a3b6452fa2",
+  "A4": "3e4b80af-365e-465b-aefb-f9a3b6452fa2",
+  "A5": "2ec5b349-3bc7-470a-a34b-904ad0001312",
+  "S2": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
 }
 ~ MetaData.Schema.D2 [
   "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
