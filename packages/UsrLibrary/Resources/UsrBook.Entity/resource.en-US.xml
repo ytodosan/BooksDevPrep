@@ -5,7 +5,7 @@
 			<Item Name="Caption" Value="Books" />
 			<Item Name="Columns.UsrAuthor.Caption" Value="Author" />
 			<Item Name="Columns.UsrISBN.Caption" Value="ISBN" />
-			<Item Name="Columns.UsrPublishedYear.Caption" Value="Publication year Dev1 version" />
+			<Item Name="Columns.UsrPublishedYear.Caption" Value="Published year" />
 			<Item Name="Columns.UsrTitle.Caption" Value="Title" />
 		</Items>
 	</Group>
