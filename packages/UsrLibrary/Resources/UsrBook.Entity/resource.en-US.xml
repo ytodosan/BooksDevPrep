@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
@@ -6,6 +6,7 @@
 			<Item Name="Columns.UsrAuthor.Caption" Value="Author" />
 			<Item Name="Columns.UsrISBN.Caption" Value="ISBN" />
 			<Item Name="Columns.UsrPublishedYear.Caption" Value="Year published" />
+			<Item Name="Columns.UsrPublisher.Caption" Value="Publisher" />
 			<Item Name="Columns.UsrTitle.Caption" Value="Title" />
 		</Items>
 	</Group>
