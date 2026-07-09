@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "3e4b80af-365e-465b-aefb-f9a3b6452fa2",
     "Name": "UsrBook",
-    "ModifiedOnUtc": "\/Date(1783605038000)\/",
+    "ModifiedOnUtc": "\/Date(1783607007000)\/",
     "Parent": {
       "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
       "Name": "BaseEntity"
