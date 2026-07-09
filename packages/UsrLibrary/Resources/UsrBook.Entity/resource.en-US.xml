@@ -6,6 +6,7 @@
 			<Item Name="Columns.UsrAuthor.Caption" Value="Author" />
 			<Item Name="Columns.UsrISBN.Caption" Value="ISBN" />
 			<Item Name="Columns.UsrPublishedYear.Caption" Value="attempt 6 dev 2" />
+			<Item Name="Columns.UsrPublisher.Caption" Value="Publisher" />
 			<Item Name="Columns.UsrTitle.Caption" Value="Title" />
 		</Items>
 	</Group>
