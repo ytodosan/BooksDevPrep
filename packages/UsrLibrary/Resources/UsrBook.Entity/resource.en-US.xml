@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
@@ -8,6 +8,7 @@
 			<Item Name="Columns.UsrPublishedYear.Caption" Value="attempt 6 dev 2" />
 			<Item Name="Columns.UsrPublisher.Caption" Value="Publisher" />
 			<Item Name="Columns.UsrTitle.Caption" Value="Title" />
+			<Item Name="Columns.UsrTotalCopies.Caption" Value="TotalCopies" />
 		</Items>
 	</Group>
 </Resources>
