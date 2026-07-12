@@ -81,6 +81,14 @@
   "E19": true
 }
 + MetaData.Schema.D2 {
+  "UId": "88d24bba-cd0f-5c23-ff37-42703808aafa",
+  "A2": "UsrCopiesAvailable",
+  "A3": "3e4b80af-365e-465b-aefb-f9a3b6452fa2",
+  "A4": "3e4b80af-365e-465b-aefb-f9a3b6452fa2",
+  "A5": "418f4cdc-554b-4c69-8787-5860d134957c",
+  "S2": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
+}
++ MetaData.Schema.D2 {
   "UId": "fb907f58-5524-319e-d374-12b89777170a",
   "A2": "UsrCopiesAvailable",
   "A3": "3e4b80af-365e-465b-aefb-f9a3b6452fa2",
@@ -102,7 +110,8 @@
   "7276eb66-e036-2c07-b847-5979e06eb90a",
   "1af85909-adbc-c0d9-74a4-0109546a9410",
   "d360fa4b-85a5-bc01-8139-eb7c75f0f9d5",
-  "fb907f58-5524-319e-d374-12b89777170a"
+  "fb907f58-5524-319e-d374-12b89777170a",
+  "88d24bba-cd0f-5c23-ff37-42703808aafa"
 ]
 = MetaData.Schema.D20.A2 "UsrBookEvents"
 + MetaData.Schema.D20.FA1 false
