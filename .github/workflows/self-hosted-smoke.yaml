@@ -50,3 +50,36 @@ jobs:
       - name: Sonar end
         shell: powershell
         run: dotnet sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
+
+  release:
+    name: Publish Library app as a GitHub Release
+    needs: smoke
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: [self-hosted, books-devprep]
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          clean: false
+
+      - name: Publish Library app artifact
+        id: publish
+        shell: powershell
+        run: |
+          $ErrorActionPreference = "Stop"
+          $dist = "$env:RUNNER_TEMP\dist"
+          clio publish-app . --app-hub "$dist" -a UsrLibrary -v 1.0.0
+          if ($LASTEXITCODE -ne 0) { throw "clio publish-app failed with exit code $LASTEXITCODE" }
+          $zip = Join-Path $dist "UsrLibrary_1.0.0.zip"
+          if (-not (Test-Path $zip)) { throw "Artifact not found: $zip" }
+          "zip=$($zip -replace '\\','/')" | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v1.0.0-build.${{ github.run_number }}
+          name: Library app 1.0.0 (build ${{ github.run_number }})
+          files: ${{ steps.publish.outputs.zip }}
+          fail_on_unmatched_files: true
