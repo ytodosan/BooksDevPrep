@@ -1,11 +1,11 @@
-= MetaData.Schema.UId "3e4b80af-365e-465b-aefb-f9a3b6452fa2"
+= MetaData.Schema.UId "05f0beff-9b81-467c-8e88-5eed87dbf2a5"
 = MetaData.Schema.A2 "UsrBook"
-= MetaData.Schema.A5 "418f4cdc-554b-4c69-8787-5860d134957c"
-= MetaData.Schema.B6 "7baf5c8d-60d1-46b4-8d77-10ba04cd67fa"
+= MetaData.Schema.A5 "0feb2c48-f579-435a-aed8-24f73ac3a0b8"
+= MetaData.Schema.B6 "1196b0c4-3ca0-453d-b1d0-37ec9552708c"
 = MetaData.Schema.B8 "8.3.4.2753"
-= MetaData.Schema.EG1.UId "50d3e7e3-fd70-434e-97d4-22bf15cae40e"
-= MetaData.Schema.EG1.A2 "UsrEntity_cb9c82dEventsProcess"
-= MetaData.Schema.EG1.A5 "418f4cdc-554b-4c69-8787-5860d134957c"
+= MetaData.Schema.EG1.UId "795ec510-4ddc-4c29-880d-6c35357fb54a"
+= MetaData.Schema.EG1.A2 "UsrEntity_6e74dbfEventsProcess"
+= MetaData.Schema.EG1.A5 "0feb2c48-f579-435a-aed8-24f73ac3a0b8"
 + MetaData.Schema.EG1.B8 "8.3.4.2753"
 = MetaData.Schema.EG1.BK8 "7bb7d6a5-e7a3-4837-83bc-7f785d688165"
 = MetaData.Schema.EG1.BK37.A3 "bb4d6607-026b-4b27-b640-8f5c77c1e89d"
@@ -21,79 +21,22 @@
 + MetaData.Schema.D29 "null"
 + MetaData.Schema.D30 "null"
 + MetaData.Schema.D31 "null"
++ MetaData.Schema.D4 "67176d54-a906-a9d5-319d-44f93cabd128"
 + MetaData.Schema.D2 {
-  "UId": "be0f8855-d69a-4843-442b-46ed47f2d3e3",
+  "UId": "67176d54-a906-a9d5-319d-44f93cabd128",
   "A2": "UsrTitle",
-  "A3": "3e4b80af-365e-465b-aefb-f9a3b6452fa2",
-  "A4": "3e4b80af-365e-465b-aefb-f9a3b6452fa2",
-  "A5": "418f4cdc-554b-4c69-8787-5860d134957c",
+  "A3": "05f0beff-9b81-467c-8e88-5eed87dbf2a5",
+  "A4": "05f0beff-9b81-467c-8e88-5eed87dbf2a5",
+  "A5": "0feb2c48-f579-435a-aed8-24f73ac3a0b8",
   "S2": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd",
   "E19": true
 }
 + MetaData.Schema.D2 {
-  "UId": "52b8db0e-93c9-9202-b784-2f3b8bf9857e",
+  "UId": "54dcb265-b165-4798-30a9-2de31370fc52",
   "A2": "UsrPublishedYear",
-  "A3": "3e4b80af-365e-465b-aefb-f9a3b6452fa2",
-  "A4": "3e4b80af-365e-465b-aefb-f9a3b6452fa2",
-  "A5": "418f4cdc-554b-4c69-8787-5860d134957c",
-  "S2": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
-}
-+ MetaData.Schema.D2 {
-  "UId": "66dfb15e-5dd5-3b5d-f02f-d447c006336e",
-  "A2": "UsrAuthor",
-  "A3": "3e4b80af-365e-465b-aefb-f9a3b6452fa2",
-  "A4": "3e4b80af-365e-465b-aefb-f9a3b6452fa2",
-  "A5": "418f4cdc-554b-4c69-8787-5860d134957c",
-  "S2": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd",
-  "E19": true
-}
-+ MetaData.Schema.D2 {
-  "UId": "10ee2da2-31e1-5b5e-3db6-5ed253d1ad0c",
-  "A2": "UsrISBN",
-  "A3": "3e4b80af-365e-465b-aefb-f9a3b6452fa2",
-  "A4": "3e4b80af-365e-465b-aefb-f9a3b6452fa2",
-  "A5": "2ec5b349-3bc7-470a-a34b-904ad0001312",
-  "S2": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
-}
-+ MetaData.Schema.D2 {
-  "UId": "7276eb66-e036-2c07-b847-5979e06eb90a",
-  "A2": "UsrPublisher",
-  "A3": "3e4b80af-365e-465b-aefb-f9a3b6452fa2",
-  "A4": "3e4b80af-365e-465b-aefb-f9a3b6452fa2",
-  "A5": "418f4cdc-554b-4c69-8787-5860d134957c",
-  "S2": "325a73b8-0f47-44a0-8412-7606f78003ac"
-}
-+ MetaData.Schema.D2 {
-  "UId": "1af85909-adbc-c0d9-74a4-0109546a9410",
-  "A2": "UsrTotalCopies",
-  "A3": "3e4b80af-365e-465b-aefb-f9a3b6452fa2",
-  "A4": "3e4b80af-365e-465b-aefb-f9a3b6452fa2",
-  "A5": "418f4cdc-554b-4c69-8787-5860d134957c",
-  "S2": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
-}
-+ MetaData.Schema.D2 {
-  "UId": "d360fa4b-85a5-bc01-8139-eb7c75f0f9d5",
-  "A2": "UsrShelfPosition",
-  "A3": "3e4b80af-365e-465b-aefb-f9a3b6452fa2",
-  "A4": "3e4b80af-365e-465b-aefb-f9a3b6452fa2",
-  "A5": "418f4cdc-554b-4c69-8787-5860d134957c",
-  "S2": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd",
-  "E19": true
-}
-+ MetaData.Schema.D2 {
-  "UId": "88d24bba-cd0f-5c23-ff37-42703808aafa",
-  "A2": "UsrCopiesAvailable",
-  "A3": "3e4b80af-365e-465b-aefb-f9a3b6452fa2",
-  "A4": "3e4b80af-365e-465b-aefb-f9a3b6452fa2",
-  "A5": "418f4cdc-554b-4c69-8787-5860d134957c",
-  "S2": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
-}
-+ MetaData.Schema.D2 {
-  "UId": "fb907f58-5524-319e-d374-12b89777170a",
-  "A2": "UsrCopiesAvailable",
-  "A3": "3e4b80af-365e-465b-aefb-f9a3b6452fa2",
-  "A4": "3e4b80af-365e-465b-aefb-f9a3b6452fa2",
-  "A5": "418f4cdc-554b-4c69-8787-5860d134957c",
+  "A3": "05f0beff-9b81-467c-8e88-5eed87dbf2a5",
+  "A4": "05f0beff-9b81-467c-8e88-5eed87dbf2a5",
+  "A5": "0feb2c48-f579-435a-aed8-24f73ac3a0b8",
   "S2": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
 }
 ~ MetaData.Schema.D2 [
@@ -103,15 +46,8 @@
   "9928edec-4272-425a-93bb-48743fee4b04",
   "3015559e-cbc6-406a-88af-07f7930be832",
   "3fabd836-6a53-4d8d-9069-6df88d9dae1e",
-  "be0f8855-d69a-4843-442b-46ed47f2d3e3",
-  "52b8db0e-93c9-9202-b784-2f3b8bf9857e",
-  "66dfb15e-5dd5-3b5d-f02f-d447c006336e",
-  "10ee2da2-31e1-5b5e-3db6-5ed253d1ad0c",
-  "7276eb66-e036-2c07-b847-5979e06eb90a",
-  "1af85909-adbc-c0d9-74a4-0109546a9410",
-  "d360fa4b-85a5-bc01-8139-eb7c75f0f9d5",
-  "fb907f58-5524-319e-d374-12b89777170a",
-  "88d24bba-cd0f-5c23-ff37-42703808aafa"
+  "67176d54-a906-a9d5-319d-44f93cabd128",
+  "54dcb265-b165-4798-30a9-2de31370fc52"
 ]
 = MetaData.Schema.D20.A2 "UsrBookEvents"
 + MetaData.Schema.D20.FA1 false
@@ -131,7 +67,7 @@
 + MetaData.Schema.D20.FA14 false
 = MetaData.Schema.D20.FA15 false
 + MetaData.Schema.D20.FA17 false
-= MetaData.Schema.D36.A3 "3e4b80af-365e-465b-aefb-f9a3b6452fa2"
+= MetaData.Schema.D36.A3 "05f0beff-9b81-467c-8e88-5eed87dbf2a5"
 = MetaData.Schema.D36.BS1 false
 - MetaData.Schema.EG1.B6
 - MetaData.Schema.EG1.BK29

@@ -2,7 +2,7 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="Book Categorizer" />
+			<Item Name="Caption" Value="Book categorizer" />
 		</Items>
 	</Group>
 </Resources>

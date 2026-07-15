@@ -1,10 +1,10 @@
 ﻿{
   "Descriptor": {
-    "UId": "9915247c-0113-4bd1-a74c-31cafeee722a",
+    "UId": "dda2455e-fd86-44f9-9f52-ee42bdb364fa",
     "Name": "UsrBookCategorizer",
-    "ModifiedOnUtc": "\/Date(1781188419000)\/",
+    "ModifiedOnUtc": "\/Date(1783955952000)\/",
     "ManagerName": "SourceCodeSchemaManager",
-    "Caption": "Book Categorizer",
+    "Caption": "Book categorizer",
     "DependsOn": []
   }
 }

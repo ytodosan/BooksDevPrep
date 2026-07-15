@@ -1,5 +1,4 @@
 namespace Terrasoft.Configuration.UsrLibrary
-// prep retrigger
 {
     public static class UsrBookCategorizer
     {
@@ -9,7 +8,6 @@ namespace Terrasoft.Configuration.UsrLibrary
         {
             return year > 0 && year < ClassicThreshold;
         }
-
         public static bool IsAncient(int year)
         {
             return year > 0 && year < 1500;
